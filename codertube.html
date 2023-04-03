@@ -20,40 +20,75 @@
 
         <link rel="stylesheet" href="/css/site.css" />
     </head>
+	<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Bootstrap Components</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">BS Mail</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/vacation.html"
+                >Vacation rental</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/codertube.html">Coder Tube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
     <body>
-        <main class="text-secondary">
-            <div class="row bg-dark p-3 border border-dark">
-                <div class="col-2 p-2">
+        <main class="container-fluid">
+            <div class="row row-cols-1 bg-dark p-1 border border-dark">
+                <div class="col-2 p-1 ">
 					<ul class="list-group list-group-flush">
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Home
+							<i class="bi bi-house"></i> <p class="d-none d-sm-block">Home</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Shorts
+							<i class="bi bi-play-circle"></i> <p class="d-none d-sm-block"> Shorts</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Subscription
+							<i class="bi bi-play-btn"></i> <p class="d-none d-sm-block"> Subscription</p>
 						</li>
 						</button>
 						<li class="list-group-item bg-dark text-secondary text-start border border-dark"></li>
-						
-						
 					</ul>
 					<br>
 					<ul class="list-group list-group-flush">
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Library
+							<i class="bi bi-book"></i> <p class="d-none d-sm-block"> Library</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							History</li>
+							<i class="bi bi-clock-history"></i> <p class="d-none d-sm-block"> History</p>
+						</li>
 						</button>
 						<li class="list-group-item bg-dark text-secondary border border-dark"></li>
   					</ul>
@@ -61,52 +96,52 @@
 					<ul class="list-group list-group-flush">
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Trending
+							<i class="bi bi-fire"></i> <p class="d-none d-sm-block"> Trending</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Music
+							<i class="bi bi-file-music-fill"></i> <p class="d-none d-sm-block"> Music</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
 						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Movies & TV
+							<i class="bi bi-film"></i> <p class="d-none d-sm-block"> Movies & TV
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Live
+							<i class="bi bi-broadcast"></i> <p class="d-none d-sm-block"> Live</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
 						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Gaming
+							<i class="bi bi-controller"></i> <p class="d-none d-sm-block"> Gaming</p>
 						</button>
 						</li>
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							News
+							<i class="bi bi-newspaper"></i> <p class="d-none d-sm-block"> News</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
 						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Sports
+							<i class="bi bi-trophy"></i> <p class="d-none d-sm-block"> Sports</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Learning
+							<i class="bi bi-lightbulb"></i> <p class="d-none d-sm-block"> Learning</p>
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
 						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Fashion
+							<i class="bi bi-handbag"></i> <p class="d-none d-sm-block"> Fashion</p>						
 						</li>
 						</button>
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							Podcasts
+							<i class="bi bi-broadcast-pin"></i> <p class="d-none d-sm-block"> Podcasts</p>
 						</li>
 						</button>
 						<li class="list-group-item bg-dark text-secondary text-start border border-dark"></li>
@@ -115,17 +150,19 @@
 					<ul class="list-group list-group-flush">
 						<button type="button" class="btn btn-dark">
   						<li class="list-group-item bg-dark text-secondary text-start border border-dark">
-							More...
+							<p class="d-none d-sm-block"> More...</p>
 						</li>
 						</button>
   					</ul>
 				</div>
                 <div class="col-10">
-                   <div class="row bg-dark text-secondary p-2 g-2 border border-dark">
-						<div class="col-3">
+					<div class="row row-cols-1 bg-dark text-secondary p-1 g-1 border border-dark">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center "><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -135,10 +172,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -148,36 +187,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
-						<div class="card border border-dark">
-                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
-									</i>
-                        		<div class="card-body bg-dark text-secondary">
-                            		<p class="card-text">
-                             		<h5>Video Title</h5>
-							 		<p>Channel Name</p><br>
-							 		<p>1.2M Views - Uploaded 4 days ago</p>
-                            		</p>
-                        		</div>
-                    		</div>
-						</div>
-						<div class="col-3">
-							<div class="card border border-dark text-secondary">
-                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
-									</i>
-                        		<div class="card-body bg-dark">
-                            		<p class="card-text">
-                             		<h5>Video Title</h5>
-							 		<p>Channel Name</p><br>
-							 		<p>1.2M Views - Uploaded 4 days ago</p>
-                            		</p>
-                        		</div>
-                    		</div>
-						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -187,10 +202,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -200,23 +217,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
-						<div class="card border border-dark">
-                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
-									</i>
-                        		<div class="card-body bg-dark text-secondary">
-                            		<p class="card-text">
-                             		<h5>Video Title</h5>
-							 		<p>Channel Name</p><br>
-							 		<p>1.2M Views - Uploaded 4 days ago</p>
-                            		</p>
-                        		</div>
-                    		</div>
-						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -226,10 +232,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -239,10 +247,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -252,23 +262,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
-						<div class="card border border-dark">
-                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
-									</i>
-                        		<div class="card-body bg-dark text-secondary">
-                            		<p class="card-text">
-                             		<h5>Video Title</h5>
-							 		<p>Channel Name</p><br>
-							 		<p>1.2M Views - Uploaded 4 days ago</p>
-                            		</p>
-                        		</div>
-                    		</div>
-						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -278,10 +277,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -291,24 +292,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
-                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center">
-										<br><br><br><br><br><br>
-									</i>
-                        		<div class="card-body bg-dark text-secondary">
-                            		<p class="card-text">
-                             		<h5>Video Title</h5>
-							 		<p>Channel Name</p><br>
-							 		<p>1.2M Views - Uploaded 4 days ago</p>
-                            		</p>
-                        		</div>
-                    		</div>
-						</div>
-						<div class="col-3">
-						<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -318,10 +307,12 @@
                         		</div>
                     		</div>
 						</div>
-						<div class="col-3">
+						<div class="col col-md-3">
 							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
                        				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
 									</i>
+									</a>
                         		<div class="card-body bg-dark text-secondary">
                             		<p class="card-text">
                              		<h5>Video Title</h5>
@@ -331,15 +322,88 @@
                         		</div>
                     		</div>
 						</div>
-				   </div>
-					
-                </div>
+						<div class="col col-md-3">
+							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
+                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
+									</i>
+									</a>
+                        		<div class="card-body bg-dark text-secondary">
+                            		<p class="card-text">
+                             		<h5>Video Title</h5>
+							 		<p>Channel Name</p><br>
+							 		<p>1.2M Views - Uploaded 4 days ago</p>
+                            		</p>
+                        		</div>
+                    		</div>
+						</div>
+						<div class="col col-md-3">
+							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
+                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
+									</i>
+									</a>
+                        		<div class="card-body bg-dark text-secondary">
+                            		<p class="card-text">
+                             		<h5>Video Title</h5>
+							 		<p>Channel Name</p><br>
+							 		<p>1.2M Views - Uploaded 4 days ago</p>
+                            		</p>
+                        		</div>
+                    		</div>
+						</div>
+						<div class="col col-md-3">
+							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
+                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
+									</i>
+									</a>
+                        		<div class="card-body bg-dark text-secondary">
+                            		<p class="card-text">
+                             		<h5>Video Title</h5>
+							 		<p>Channel Name</p><br>
+							 		<p>1.2M Views - Uploaded 4 days ago</p>
+                            		</p>
+                        		</div>
+                    		</div>
+						</div>
+						<div class="col col-md-3">
+							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
+                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
+									</i>
+									</a>
+                        		<div class="card-body bg-dark text-secondary">
+                            		<p class="card-text">
+                             		<h5>Video Title</h5>
+							 		<p>Channel Name</p><br>
+							 		<p>1.2M Views - Uploaded 4 days ago</p>
+                            		</p>
+                        		</div>
+                    		</div>
+						</div>
+						<div class="col col-md-3">
+							<div class="card border border-dark">
+									<a class="link-opacity-100-hover" href="#">
+                       				<i class="bi bi-play-circle text-center bg-secondary d-flex justify-content-center align-items-center"><br><br><br><br><br><br>
+									</i>
+									</a>
+                        		<div class="card-body bg-dark text-secondary">
+                            		<p class="card-text">
+                             		<h5>Video Title</h5>
+							 		<p>Channel Name</p><br>
+							 		<p>1.2M Views - Uploaded 4 days ago</p>
+                            		</p>
+                        		</div>
+                    		</div>
+						</div>
+				</div>
             </div>
         </main>
     </body>
 
     <footer class="bg-dark py-3 container-fluid text-light">
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-md-3 ">
             <div class="col text-center text-md-start text-secondary">
                 &copy; 2023 CoderGabe
             </div>
